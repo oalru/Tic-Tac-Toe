@@ -123,6 +123,9 @@ footer {
     cursor: pointer;
 }
 
+.wh:hover {
+    background-color: rgb(255, 255, 255);
+}
 .score {
     font-size: 25px;
     margin: 20px;

@@ -1,7 +1,6 @@
 $("document").ready(function() {
     
     // declaring icons to choose from
-    
     const icons = [
 {
     type:"X",
@@ -39,7 +38,7 @@ $("document").ready(function() {
 
 // declaring the board and the boxes
 
-    const $box = $('.wh');
+const $box = $('.wh');
     const s1 = $('.s1');
     const s2 = $('.s2');
     const s3 = $('.s3');
@@ -76,26 +75,27 @@ $("document").ready(function() {
     }
     $('.wh').click(onClickk);
     
+    function checkForGame(){
+        function startGame ()
+           {
+               if (s1 === s2 === s3 || s1 === s4 === s7 || s1 === s5 === s9 || s2 === s5 === s8 || s3 === s6 === s9 || s3 === s5 === s7 || s4 === s5 === s6 || s7 === s8 === s9){
+                   alert('w');
+               } else { 
+                   alert('Q');
+               }
+           }
+       
+           if (icons.length === 2){
+       } else { 
+    
+       } } 
+       
+    
     let s = choose('O');
     console.log(s);
 
 // checking to see if the game has two players or not 
     
-function checkForGame(){
-    function startGame ()
-       {
-           if (s1 === s2 === s3 || s1 === s4 === s7 || s1 === s5 === s9 || s2 === s5 === s8 || s3 === s6 === s9 || s3 === s5 === s7 || s4 === s5 === s6 || s7 === s8 === s9){
-               alert('You Win');
-           } else { 
-               alert("it's a Tie");
-           }
-       }
-   
-       if (icons.length === 2){
-   } else { 
-
-   } } 
-   
 
 
 });
