@@ -1,15 +1,23 @@
+header {
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
 h1 {
     font-size: 35px;
     color: red;
     background-color: black;
-    display: block;
     text-align: center;
     height: 200px;
-    align-items: center;
+    font-weight: 400;
+    font-size: 45px;
+    border: 5px solid salmon;
+    border-radius: 10px;
 }
 
 nav {
-    height: 80px;
+    height: 75px;
     width: 100vw;
     align-items: flex-start;
     display: inline-block;
@@ -17,35 +25,36 @@ nav {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
+    
+    margin: 4px;
 }
 button {
     width: 33%;
-    height: 80px;
+    height: 100%;
     background-color: darkblue;
     color: whitesmoke;
     font-size: 30px;
+    border: 1px solid rgb(186, 166, 233);
+    border-radius: 6px;
 }
 
 body {
     text-align: center;
+    background-color: #d6d4e6;
 }
 
 footer {
     font-size: 18px;
     color: silver;
-    height: 70px;
+    height: 150px;
     width: 100vw;
     background-color: black;
-}
-
-.bottom {
-    
+    bottom: 50px;
 }
 
 .board {
-    height: 725px;
+    height: 1000px;
     width: 100%;
-    margin: 0;
 }
 
 .game {
@@ -56,87 +65,65 @@ footer {
 }
 
 .firtColumn {
-    
     justify-content: center;
     align-items: center;
 }
 
 .secondColumn {
-    
     justify-content: center;
     align-items: center;
 }
 
 .thirdColumn {
-   
     justify-content: center;
     align-items: center;
 }
 
  .s1 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s2 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s3 {
     
-    height: 30px;
-    width: 30px;
+   
     border: 4px solid black;
 }
 
 .s4 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s5 {
-    border: 10px solid black;
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s6 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s7 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s8 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 }
 
 .s9 {
-    
-    height: 30px;
-    width: 30px;
     border: 4px solid black;
 } 
 
 .wh{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.score {
+    font-size: 25px;
+    margin: 20px;
 }
