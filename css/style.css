@@ -1,0 +1,31 @@
+h1 {
+    font-size: 35px;
+    color: red;
+    background-color: black;
+    display: block;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+}
+
+nav {
+    height: 80px;
+    width: 100vw;
+    align-items: flex-start;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+button {
+    width: 33%;
+    height: 80px;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+body {
+    text-align: center;
+}
