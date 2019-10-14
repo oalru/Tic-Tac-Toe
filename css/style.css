@@ -41,6 +41,7 @@ button {
 body {
     text-align: center;
     background-color: #d6d4e6;
+    font-size: 35px;
 }
 
 footer {
@@ -55,6 +56,7 @@ footer {
 .board {
     height: 1000px;
     width: 100%;
+    text-align: center;
 }
 
 .game {
@@ -79,54 +81,29 @@ footer {
     align-items: center;
 }
 
- .s1 {
-    border: 4px solid black;
-}
-
-.s2 {
-    border: 4px solid black;
-}
-
-.s3 {
-    
-   
-    border: 4px solid black;
-}
-
-.s4 {
-    border: 4px solid black;
-}
-
-.s5 {
-    border: 4px solid black;
-}
-
-.s6 {
-    border: 4px solid black;
-}
-
-.s7 {
-    border: 4px solid black;
-}
-
-.s8 {
-    border: 4px solid black;
-}
-
-.s9 {
-    border: 4px solid black;
-} 
-
 .wh{
     width: 250px;
     height: 250px;
     cursor: pointer;
+    border: 4px solid black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .wh:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.328);
 }
 .score {
     font-size: 25px;
     margin: 20px;
+}
+.winning {
+    background-color: red;
+    color: black;
+}
+
+.imge {
+    width: 50%;
 }
