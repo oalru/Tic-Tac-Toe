@@ -1,3 +1,9 @@
+p {
+    align-content: center;
+    text-align: center;
+    justify-content: center ;
+    margin-top: 10px;
+}
 header {
     padding: 5px;
     margin: 10px;
@@ -34,6 +40,17 @@ button {
     height: 75%;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
     color: whitesmoke;
+    font-size: 30px;
+    border: 1px solid rgb(186, 166, 233);
+    border-radius: 50px;
+    margin: 50px;
+}
+
+button:hover {
+    width: 50%;
+    height: 75%;
+    background: linear-gradient(110deg, #e6331c 60%, #4e402e 60%);
+    color: rgb(27, 23, 23);
     font-size: 30px;
     border: 1px solid rgb(186, 166, 233);
     border-radius: 50px;
@@ -109,6 +126,10 @@ footer {
 
 .icons {
     margin-top: 50px;
+}
+
+.choose > .icons:hover {
+    background: blue;     ;
 }
 
 .yourS {

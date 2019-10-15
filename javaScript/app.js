@@ -16,20 +16,27 @@ const tie = document.querySelector(".tie");
 let box = document.querySelectorAll(".wh"); 
 let x_or_o = 0;
 let piece;
+let user1 = 0;
+let user2 = 0;
+let newUser = 0;
+let me = document.querySelector(".user1");
+let him = document.querySelector(".user2");
 
 const displayWinner = function(){
-    if (x_or_o%2 === 0 && x_or_o != 8){
+    if (x_or_o%2 === 0 && x_or_o !== 8){
         game.style.display = "none";
         whoWon.style.display = "block";
+        user1 += 1;
     }
     if (x_or_o%2 === 1){ 
         game.style.display = "none";
         looser.style.display = "block";
+        user2 += 1;
     } 
     if (x_or_o == 8){
         game.style.display = "none";
         tie.style.display = "block";
-        console.log("ttt");
+        noUser += 1;
     }
 }
 
@@ -52,7 +59,7 @@ const replay = function(){
 
 const finish = function(){
     for (let i = 0; i < box.length; i++) {
-        box[i].removeEventListener('click', logic)   
+        box[i].removeEventListener('click', logic)  
     }
 }
 
