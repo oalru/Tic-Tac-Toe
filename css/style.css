@@ -6,14 +6,15 @@ header {
 }
 h1 {
     font-size: 35px;
-    color: red;
-    background-color: black;
+    color: rgba(0, 68, 255, 0.589);
+    background-color: rgb(202, 222, 248);
     text-align: center;
-    height: 200px;
+    height: flex;
     font-weight: 400;
     font-size: 45px;
-    border: 5px solid salmon;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
+    padding: 10px;
 }
 
 nav {
@@ -29,19 +30,21 @@ nav {
     margin: 4px;
 }
 button {
-    width: 33%;
-    height: 100%;
-    background-color: darkblue;
+    width: 50%;
+    height: 75%;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
     color: whitesmoke;
     font-size: 30px;
     border: 1px solid rgb(186, 166, 233);
-    border-radius: 6px;
+    border-radius: 50px;
+    margin: 50px;
 }
 
 body {
     text-align: center;
-    background-color: #d6d4e6;
+    background: linear-gradient(150deg, #f1f1f1 60%, #808080 60%);
     font-size: 35px;
+    position: flex;
 }
 
 footer {
@@ -51,19 +54,16 @@ footer {
     width: 100vw;
     background-color: black;
     bottom: 50px;
-}
-
-.board {
-    height: 1000px;
-    width: 100%;
-    text-align: center;
+    margin-top: 35px;
 }
 
 .game {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-top: 75px;
+    margin-bottom: 75px;
+    position: flex;
 }
 
 .firtColumn {
@@ -82,14 +82,14 @@ footer {
 }
 
 .wh{
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     cursor: pointer;
-    border: 4px solid black;
-    text-align: center;
+    border: 3px solid rgb(105, 105, 223);
     justify-content: center;
     display: flex;
     align-items: center;
+    position: flex;
 }
 
 .wh:hover {
@@ -101,9 +101,95 @@ footer {
 }
 .winning {
     background-color: red;
-    color: black;
 }
 
 .imge {
     width: 50%;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.yourS {
+    margin-top: 50px;
+}
+
+.choose {
+    display: block;
+    border: 10px solid black;
+    width: 500px;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+    font: 40px;
+    background:rgb(65, 83, 90);
+    color: rgb(197, 203, 206);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.whoWon {
+    display: none;
+    border: 10px solid black;
+    width: 250px;
+    height: 75px;
+    background: rgb(37, 163, 37);
+    color: honeydew;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.looser {
+    display: none;
+    border: 10px solid black;
+    width: 250px;
+    height: 75px;
+    background: rgb(8, 10, 8);
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.tie {
+    display: none  ;
+    border: 10px solid black;
+    width: 250px;
+    height: 50px;
+    background: rgb(71, 37, 163);
+    color: rgb(177, 38, 56);
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 850px){
+    .wh {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .wh {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .wh {
+        width: 70px;
+        height: 70px;
+    }
 }
