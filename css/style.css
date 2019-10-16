@@ -201,16 +201,28 @@ footer {
         width: 150px;
         height: 150px;
     }
+    .choose {
+        width: 300px;
+        height: 300px;
+    }
 }
 @media only screen and (max-width: 550px){
     .wh {
         width: 100px;
         height: 100px;
     }
+    .choose {
+        width: 2500px;
+        height: 2500px;
+    }
 }
 @media only screen and (max-width: 350px){
     .wh {
         width: 70px;
         height: 70px;
+    }
+    .choose {
+        width: 200px;
+        height: 200px;
     }
 }
