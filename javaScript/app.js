@@ -71,7 +71,7 @@ const winningRow = function(b1,b2,b3){
 }
 
 const logic = function(){
-    if(this.innerHTML !== '<img class="imge" src="' + piece +'">' && this.innerHTML !== '<img class="imge" src="../images/o.png">'){
+    if(this.innerHTML !== '<img class="imge" src="' + piece +'">' && this.innerHTML !== '<img class="imge" src="images/o.png">'){
         if(playerTurn){
             this.innerHTML = '<img class="imge" src="'+ piece +'">';
             x_or_o += 1;
