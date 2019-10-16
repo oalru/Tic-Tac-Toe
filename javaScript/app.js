@@ -78,7 +78,7 @@ const logic = function(){
             playerTurn = false
             winner();
         } else {
-            this.innerHTML = '<img class="imge" src="../images/o.png">';
+            this.innerHTML = '<img class="imge" src="images/o.png">';
             x_or_o += 1;
             playerTurn = true
             winner();
