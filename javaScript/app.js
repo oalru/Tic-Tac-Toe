@@ -34,7 +34,7 @@ const displayWinner = function(){
         looser.style.display = "block";
         user2 += 1;
     } 
-    if (x_or_o == 8){
+    if (x_or_o == 9){
         game.style.display = "none";
         tie.style.display = "block";
         noUser += 1;
@@ -71,6 +71,7 @@ const winningRow = function(b1,b2,b3){
 }
 
 const logic = function(){
+    console.log(piece);
     if(this.innerHTML !== '<img class="imge" src="' + piece +'">' && this.innerHTML !== '<img class="imge" src="../images/o.png">'){
         if(x_or_o%2 === 0){
             this.innerHTML = '<img class="imge" src="'+ piece +'">';
