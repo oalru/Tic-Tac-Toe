@@ -156,7 +156,7 @@ for (let i = 0; i < box.length; i++) {
 
 
 const icons = function(){
-    piece = "."+this.getAttribute('src');
+    piece = this.getAttribute('src');
     choose.style.display = "none";
     game.style.display= "flex";
 }
