@@ -1,3 +1,4 @@
+// variables declaration
 const iconsImage = document.querySelectorAll(".icons"); 
 const s1 = document.querySelector(".s1");
 const s2 = document.querySelector(".s2");
@@ -21,9 +22,9 @@ let user2 = 0;
 let newUser = 0;
 let me = document.querySelector(".user1");
 let him = document.querySelector(".user2");
-
+// Function declaration
 const displayWinner = function(){
-    if (x_or_o%2 === 0 && x_or_o !== 8){
+    if (x_or_o != 8 && x_or_o%2 === 0){
         game.style.display = "none";
         whoWon.style.display = "block";
         user1 += 1;
