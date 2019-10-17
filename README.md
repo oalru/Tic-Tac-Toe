@@ -1,8 +1,8 @@
 # Tic-Tac-Toe
 
-a web application Game for every age Consisting of ***9 boxes ( 3x3 )*** style and the goal is to match three boxes in a single row.
+A web application Game Consisting of ***9 boxes ( 3x3 )*** style and the goal is to match three boxes in a single row.
 
-## Goal :
+## Goal:
 
 The goal of this project is to build a simple **[Tic Tac Toe](https://oalru.github.io/Tic-Tac-Toe/)** game using what we've been tought the last couple weeks.
 
@@ -14,6 +14,8 @@ The goal of this project is to build a simple **[Tic Tac Toe](https://oalru.gith
 * JavaScript
 * Visual Studio Code
 * GitHub
+* [W3Schools](https://www.w3schools.com/)
+* [StackOverflow](https://stackoverflow.com/)
 
 ## How To Play:
 
